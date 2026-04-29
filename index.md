@@ -24,7 +24,7 @@ file="qlab-5-icon_size.png" alt="QLab5 button" %} as opposed to **QLab 4** {% in
 
 1. Check the **desktop** of your computer.
 2. Select **New Workspace from template \"KL Template...\"** 
-3. Download from <a alt='KL-Showfile' href='https://github.com/kwlyu/kph-documentation/showfiles/KL Template QLab5+ATEM+EOS.qlab5'>here</a>" %}
+3. Download from <a alt='KL-Showfile' href='https://github.com/kwlyu/kph-documentation/raw/refs/heads/main/showfiles/KL%20Template%20QLab5+ATEM+EOS.qlab5'>here</a>" %}
 
 
 
