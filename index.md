@@ -15,21 +15,32 @@ Follow these instructions to get started on the Video side of production.
 
 ### 1. Open the template
 
-If you haven't already, make sure you launch **QLab 5** {% include inline_image.html
-file="qlab-5-icon_size.png" alt="QLab5 button" %} as opposed to **QLab 4** {% include inline_image.html file="qlab-4-icon_size.png" alt="QLab4 button" %} in the dock. When you do, you will be greeted with an interface that asks you to select the template. You want to select “**KL Template QLab5+ATEM+EOS**”:
+If you haven't already, make sure you launch **QLab 5** {% include inline_image.html file="qlab-5-icon_size.png" alt="QLab5 button" %} as opposed to **QLab 4** {% include inline_image.html file="qlab-4-icon_size.png" alt="QLab4 button" %} in the dock. When you do, you will be greeted with an interface that asks you to select the template. You want to select “**KL Template QLab5+ATEM+EOS**”:
 
 {% include image.html file="QLab-Open-Screen.png" alt="QLab5" caption="This is a sample QLab Homescreen." %}
 
 {% include note.html content=" Your home screen will look different from this depending on what has been opened in the past. QLab ranks the list of show files by how recently it was open (higher is more recent). If you can't find the template, you have a few options:
 
-<br>• Check the **desktop** of your computer.
-<br>• Select **New Workspace from template \"KL Template...\"**.
-<br>• Download from <a alt='KL-Showfile' href='https://github.com/kwlyu/kph-documentation/raw/refs/heads/main/showfiles/KL%20Template%20QLab5+ATEM+EOS.qlab5'>here</a>.<br>
+<br>1. Check the **desktop** of your computer.
+<br>2. Select **New Workspace from template \"KL Template...\"**.
+<br>3. Download from <a alt='KL-Showfile' href='https://github.com/kwlyu/kph-documentation/raw/refs/heads/main/showfiles/KL%20Template%20QLab5+ATEM+EOS.qlab5'>here</a>.<br>
 
 Understand that option 2 and 3 might present you with obsolete show files." %}
 
 Check [here](/mydoc_troubleshooting.html) for common troubleshooting techniques if you have trouble getting started.
 
+### 2. Save the template as a new file
+
+Once you're in, you will see the following workspace:
+{% include image.html file="qlab-workspace.png" alt="QLab5" caption="This is a sample QLab Workspace." %}
+
+Check [here](/mydoc_troubleshooting.html) if you see <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.broken_cue}}">red X</a> warnings. (Your app title bar won't be purple. I remoted into the system when I wrote this, which is why it's showing purple.)
+
+{% include important.html content="The first thing you want to do when you open a template is to **save it as a new file**, so you don't overwrite the template. " %}
+
+To do this, go to `File` and select `Save As...`. Alternatively, press `command+shift+escape`.
+{% include image.html file="qlab-save-as.png" alt="QLab5"%}
+For good practice, keep the files organized in a folder with consistent naming conventions. An example of such a
 
 <!-- First, download or clone the theme from the [Github repo](https://github.com/tomjoht/documentation-theme-jekyll). Most likely you won't be pulling in updates once you start customizing the theme, so downloading the theme (instead of cloning it) probably makes the most sense. In Github, click the **Clone or download** button, and then click **Download ZIP**.
 
