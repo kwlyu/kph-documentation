@@ -40,7 +40,42 @@ Check [here](/mydoc_troubleshooting.html) if you see <a href="#" data-toggle="to
 
 To do this, go to `File` and select `Save As...`. Alternatively, press `command+shift+escape`.
 {% include image.html file="qlab-save-as.png" alt="QLab5"%}
-For good practice, keep the files organized in a folder with consistent naming conventions. An example of such a
+
+For good practice, keep the files organized in a folder with consistent naming conventions. An example of such a folder/directory is `Documents → QLab Archive → 2025-2026 → 3. S26 QLab`. An example of a workspace name is `04262026_Kingston-Recital`.
+
+### 3. Edit the template
+
+Now we're onto actually filling in the details according to a show. We will use several examples throughout to illustrate the different scenarios you might encounter.
+
+Before we begin, we highlight some things below in the workspace to pay attention to. If you're already familiar with the workspace, skip ahead to the [next](index.html#title) section.
+
+{% include image.html file="workspace-diagram.png" alt="QLab5" caption="Some workspace elements. Image credit: https://qlab.app/docs/v5/fundamentals/workspace/."%}
+
+
+| **<span class="cr">General</span>** | **<span class="cb">Cue types</span>** | **<span class="cg">Cue list elements</span>** | **<span class="cy">Inspector elements</span>** |
+| :--- | :--- | :--- | :--- |
+| 1: [The GO Button](https://qlab.app/docs/v5/fundamentals/workspace/#the-go-button) | 4: [Group cue](https://qlab.app/docs/v5/fundamentals/group-cues) | 30: [Playhead](https://qlab.app/docs/v5/fundamentals/workspace/#the-playhead) | 41: [Selected cue number](https://qlab.app/docs/v5/fundamentals/inspector/#number) |
+| 2: [The Standby display](https://qlab.app/docs/v5/fundamentals/workspace/#the-standby-display) | 5: [Audio cue](https://qlab.app/docs/v5/audio/audio-cues) | 31: [Cue type icon](https://qlab.app/docs/v5/fundamentals/workspace/#cue-type) | 42: [Selected cue duration](https://qlab.app/docs/v5/fundamentals/inspector/#duration) |
+| 3: [The Notes field](https://qlab.app/docs/v5/fundamentals/workspace/#the-notes-field) | 7: [Video cue](https://qlab.app/docs/v5/video/video-cues) | 32: [Cue number](https://qlab.app/docs/v5/fundamentals/workspace/#cue-number) | 43: [Selected cue pre-wait](https://qlab.app/docs/v5/fundamentals/inspector/#pre-wait) |
+| 29: [Cue](https://qlab.app/docs/v5/fundamentals/workspace/#the-cue-list) | 9: [Text cue](https://qlab.app/docs/v5/video/text-cues) | 33: [Cue name](https://qlab.app/docs/v5/fundamentals/workspace/#cue-name) | 44: [Selected cue post-wait](https://qlab.app/docs/v5/fundamentals/inspector/#post-wait) |
+| 40: [Inspector tabs](https://qlab.app/docs/v5/fundamentals/inspector) | 11: [Fade cue](https://qlab.app/docs/v5/audio/fading-audio) | 34: [Target](https://qlab.app/docs/v5/fundamentals/workspace/#target) | 45: [Selected cue continue mode](https://qlab.app/docs/v5/fundamentals/inspector/#continue) |
+| 66: [Workspace settings](https://qlab.app/docs/v5/fundamentals/workspace-settings) | 12: [Network cue](https://qlab.app/docs/v5/networking/network-cues) | 35: [Pre-wait](https://qlab.app/docs/v5/fundamentals/workspace/#pre-wait) | 46: [Selected cue name](https://qlab.app/docs/v5/fundamentals/inspector/#name) |
+| | 28: [Script cue](https://qlab.app/docs/v5/scripting/script-cues) | 36: [Duration](https://qlab.app/docs/v5/fundamentals/workspace/#duration) | 47: [Selected cue target](https://qlab.app/docs/v5/fundamentals/inspector/#target) |
+| | | 37: [Post-wait](https://qlab.app/docs/v5/fundamentals/workspace/#post-wait) | 48: [Selected cue notes](https://qlab.app/docs/v5/fundamentals/inspector/#notes) |
+| | | 38: [Continue mode](https://qlab.app/docs/v5/fundamentals/workspace/#continue-mode) | 50: [Selected cue color](https://qlab.app/docs/v5/fundamentals/inspector/#color) |
+| | | 39: [Status icon](https://qlab.app/docs/v5/fundamentals/workspace/#status) | 51: [Selected cue second color](https://qlab.app/docs/v5/fundamentals/inspector/#second-color) |
+| | | | 54: [Reveal target](https://qlab.app/docs/v5/fundamentals/inspector/#target) |
+| | | | 57: [Selected cue armed](https://qlab.app/docs/v5/fundamentals/inspector/#armed) |
+
+#### Title
+
+First navigate to the **Text** column of the **Title** cue. This is where you enter the appropriate information.
+
+{% include image.html file="title-text.png" alt="QLab5" caption="Edit Title Cue" %}
+
+For example, take a look at this following program.
+
+<embed src="{{ site.baseurl }}/pdf/11.2.25_Joint Concert Program_FINAL 3.pdf" type="application/pdf" width="100%" height="1080px" />
 
 <!-- First, download or clone the theme from the [Github repo](https://github.com/tomjoht/documentation-theme-jekyll). Most likely you won't be pulling in updates once you start customizing the theme, so downloading the theme (instead of cloning it) probably makes the most sense. In Github, click the **Clone or download** button, and then click **Download ZIP**.
 

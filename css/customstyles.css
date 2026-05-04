@@ -2,6 +2,28 @@ body {
     font-size:15px;
 }
 
+/* Styling for Kramdown Circle Indicators */
+.circle-indicator {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;   /* Diameter of the circle */
+  height: 24px;
+  border-radius: 50%; /* Makes it a circle */
+  border: 1.5px solid black; /* The sharp black outline */
+  margin-right: 10px; /* Space before the item text */
+  font-weight: bold;
+  font-size: 14px;
+  vertical-align: middle; /* Aligns the circle with the text line */
+}
+
+/* Specific Color Definitions */
+.cr { background-color: #E6614F; color: black; } /* Red (General) */
+.cb { background-color: #5D72E1; color: black; } /* Blue (Cue Types) */
+.cg { background-color: #5DD14F; color: black; } /* Green (Cue List) */
+.cy { background-color: #F8E755; color: black; } /* Yellow (Inspector) */
+
+
 .bs-callout {
     padding: 20px;
     margin: 20px 0;
