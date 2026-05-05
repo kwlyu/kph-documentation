@@ -15,7 +15,7 @@ Follow these instructions to get started on the Video side of production.
 
 ### 1. Open the template
 
-If you haven't already, make sure you launch **QLab 5** {% include inline_image.html file="qlab-5-icon_size.png" alt="QLab5 button" %} as opposed to **QLab 4** {% include inline_image.html file="qlab-4-icon_size.png" alt="QLab4 button" %} in the dock. When you do, you will be greeted with an interface that asks you to select the template. You want to select “**KL Template QLab5+ATEM+EOS**”:
+If you haven't already, make sure you launch **QLab 5** {% include inline_image.html file="qlab-5-icon_size.png" alt="QLab5 button" %} as opposed to **QLab 4** {% include inline_image.html file="qlab-4-icon_size.png" alt="QLab4 button" %} in the dock. When you do, you will be greeted with an interface that asks you to select the template. You want to select ''**KL Template QLab5+ATEM+EOS**'':
 
 {% include image.html file="QLab-Open-Screen.png" alt="QLab5" caption="This is a sample QLab Homescreen." %}
 
@@ -69,13 +69,27 @@ Before we begin, we highlight some things below in the workspace to pay attentio
 
 #### Title
 
-First navigate to the **Text** column of the **Title** cue. This is where you enter the appropriate information.
+First navigate to the **Text** column of the **Title** cue (cue name: `Title`; cue number: `A`). This is where you enter the appropriate information. Notice the {% include inline_image.html file="text-cue.png" alt="Text Cue" %} icon at the top of the playhead. THis indicates that it is a *text* cue, which displays its content as a static png file onto the designated output. If the template is set up correctly, you should see the static image on `input 7` of the ATEM Multiview. Check [here](/mydoc_troubleshooting.html) if you're seeing otherwise.
 
-{% include image.html file="title-text.png" alt="QLab5" caption="Edit Title Cue" %}
+{% include image.html file="title-text.png" alt="QLab5" caption="Edit Title Cue" max-width="23px"%}
 
-For example, take a look at this following program.
+Take a look at this following program.
 
 <embed src="{{ site.baseurl }}/pdf/11.2.25_Joint Concert Program_FINAL 3.pdf" type="application/pdf" width="100%" height="1080px" />
+
+Usually, there's just enough information to fill out the titles and subtitles (optional). In this case, we have too much information, so we have to make a decision. Typically, the title is the name of the concert, i.e., `Orchestra Concert`, `Jazz Area Concert`, etc.; the subtitle consists of the directors, soloists, etc. Here, we not only have the event name---`Fall 2025 Concert Collaboration`---but also the different ensembles and their respective directors. In this case, we omit the directors. The result would look something like this:
+
+{% include image.html file="title-edit.png" alt="Title Slide" caption="Edited Title"%}
+
+You can select the text and change its color however you desire using the `text color panel`. When we livestream an event, leave the Carleton Livestream URL [go.carleton.edu/carletonlive](go.carleton.edu/carletonlive) in. Otherwise, delete the link.
+
+{% include tip.html content=" If the texts exceeds the boundaries of the output screen, rather than adjusting the font sizes individually, you can adjust the **`Scale`** of the entire cue in the **`Geometry`** tab. You can also adjust the **`Translation`** and **`Rotation`** of cues, if the properties apply. All these parameters are ''draggable'', so you don't have to enter the values manually." %}
+
+{% include image.html file="title-geometry.png" alt="Title Geometry" caption="Edit Cue Geometry"%}
+
+
+#### Lower-Thirds
+
 
 <!-- First, download or clone the theme from the [Github repo](https://github.com/tomjoht/documentation-theme-jekyll). Most likely you won't be pulling in updates once you start customizing the theme, so downloading the theme (instead of cloning it) probably makes the most sense. In Github, click the **Clone or download** button, and then click **Download ZIP**.
 
